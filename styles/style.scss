@@ -20,7 +20,7 @@
     	font-size: 1.4vw;
     }
     @media (max-width: 768px){
-    	font-size: 2vw;
+    	font-size: 3vw;
     }
 
     
@@ -45,8 +45,9 @@ body{
             gap: 80px;
         }
     }
+    position: relative;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     display: grid;
     grid-template-rows: max-content;
 &::after{
