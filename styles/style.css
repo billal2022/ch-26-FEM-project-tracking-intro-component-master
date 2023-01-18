@@ -12,6 +12,10 @@
   --ff2: "Barlow", sans-serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,7 +29,7 @@
 }
 @media (max-width: 768px) {
   * {
-    font-size: 3vw;
+    font-size: 18px;
   }
 }
 * p, * h1 {
@@ -212,6 +216,11 @@ body::after {
   max-width: 500px;
   gap: 20px;
 }
+@media (max-width: 768px) {
+  .left-section {
+    margin-inline: 13.5px;
+  }
+}
 
 .title {
   display: flex;
@@ -234,6 +243,11 @@ body::after {
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  .title span {
+    font-size: 13px;
+  }
+}
 
 .mb-h {
   font-family: var(--ff1);
@@ -245,6 +259,11 @@ body::after {
   font-family: var(--ff1);
   color: var(--Dark-Grayish-Blue);
   margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .p {
+    font-size: 21px;
+  }
 }
 
 .button-section {
@@ -263,11 +282,21 @@ body::after {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
+@media (max-width: 768px) {
+  .button-section button {
+    font-size: 0.53rem;
+  }
+}
 .button-section span {
   font-family: var(--ff1);
   color: var(--Grayish-blue);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .button-section span {
+    font-size: 0.5rem;
+  }
 }
 
 @media (max-width: 991.98px) {

@@ -11,6 +11,9 @@
 /***/
 --ff2: 'Barlow', sans-serif;
 }
+html{
+    overflow-x: hidden;
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -20,7 +23,7 @@
     	font-size: 1.4vw;
     }
     @media (max-width: 768px){
-    	font-size: 3vw;
+    	font-size: 18px;
     }
 
     
@@ -183,6 +186,10 @@ gap: 20px;
     display: grid;
     max-width: 500px;
     gap: 20px;
+    @media (max-width: 768px){
+    	margin-inline:13.5px;
+    }
+ 
   }
 .title{
     display: flex;
@@ -203,6 +210,10 @@ text-transform: uppercase;
         color: var(--Grayish-blue);
         letter-spacing: 0.3rem;
         text-transform: uppercase;
+        @media (max-width: 768px){
+            font-size: 13px;
+        }
+
     }
 }
 .mb-h{
@@ -214,6 +225,9 @@ text-transform: uppercase;
     font-family: var(--ff1);
     color: var(--Dark-Grayish-Blue);
     margin-bottom: 40px;
+    @media (max-width: 768px){
+        font-size: 21px;
+    }
 }
 .button-section{
     display: flex;
@@ -229,12 +243,18 @@ border-radius: 8px;
 background-color: var(--Red);
 text-transform: uppercase;
 letter-spacing: 3px;
+@media (max-width: 768px){
+    font-size: 0.53rem;
+}
     }
     span{
         font-family: var(--ff1);
         color: var(--Grayish-blue);
         letter-spacing: 0.3rem;
         text-transform: uppercase;
+        @media (max-width: 768px){
+            font-size: 0.5rem;
+        }
     }
 }
 @media (max-width: 991.98px){
